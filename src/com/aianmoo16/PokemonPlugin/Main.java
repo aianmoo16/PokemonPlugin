@@ -16,11 +16,13 @@ public final class Main extends JavaPlugin {
 	
 	@Override
 	public void onDisable() {
+		
+		getLogger().info("Pokemon Plugin 0.0.1 Disabled");
 	}
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		if (cmd.getName().equalsIgnoreCase("pokemon")) {
-			sender.sendMessage(ChatColor.GOLD + "/pokemon help");
+			sender.sendMessage(ChatColor.GOLD + "Pokemon Plugin" + ChatColor.PURPLE + "Version" + ChatColor.RED + "Pre-Alpha 0.0.1");
 			return true;
 			}
 		return false;
