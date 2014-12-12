@@ -1,0 +1,9 @@
+name: PokemonPlugin
+version: 1.0
+main: com.aianmoo16.PokemonPlugin.Main
+commands:
+   pokemon:
+      description: Base command for Pokemon Plugin.
+      usage: /<command>
+      permission: pokemonplugin.pokemon
+      permission-message: You don't have permission
