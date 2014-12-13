@@ -22,7 +22,7 @@ public final class Main extends JavaPlugin {
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		if (cmd.getName().equalsIgnoreCase("pokemon")) {
-			sender.sendMessage(ChatColor.GOLD + "Pokemon Plugin" + ChatColor.PURPLE + "Version" + ChatColor.RED + "Pre-Alpha 0.0.1");
+			sender.sendMessage(ChatColor.GOLD + "Pokemon Plugin Version 0.0.1 Pre-Alpha");
 			return true;
 			}
 		return false;
